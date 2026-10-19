@@ -356,7 +356,6 @@ class Rook(Piece):
                     print("cannot move to the spot")
                     return
         target = board[row][column]
-        print(target)
         if target is not None and target.color == self.color:
             print("cannot move to the spot")
             return
@@ -441,7 +440,6 @@ class Knight(Piece):
                     print("cannot move to the spot")
                     return
         target = board[row][column]
-        print(target)
         if target is not None and target.color == self.color:
             print("cannot move to the spot")
             return
@@ -521,7 +519,6 @@ class Bishop(Piece):
                     return
 
         target = board[row][column]
-        print(target)
 
         if target is not None and target.color == self.color:
             print("cannot move to the spot")
@@ -694,7 +691,6 @@ class King(Piece):
                     print("cannot move to the spot")
                     return
         target = board[row][column]
-        print(target)
         if target is not None and target.color == self.color:
             print("cannot move to the spot")
             return
@@ -776,7 +772,7 @@ class Chess:
         piece = self.board[row][column]
 
         if piece is None:
-            print("no piece on this spot selected")
+            print("no piece on this spot")
             return
 
         if piece.color[0] != self.turn:
@@ -787,9 +783,25 @@ class Chess:
         piece.select()
         print("selected")
 
-    def move(self, x, y):
+
+    def deselect(self):
         if self.selected_piece is None:
-            print("no piece on this spot selected")
+            print("no piece is selected")
+            return
+
+        self.selected_piece.deselect()
+        self.selected_piece = None
+        print("deselected")
+
+
+
+    def move(self, x, y):
+        if x < 1 or x > 8 or y < 1 or y > 8:
+            print("wrong coordination") 
+            return
+
+        if self.selected_piece is None:
+            print("no piece on this spot")
             return
 
         old_x = self.selected_piece.x
@@ -840,6 +852,9 @@ class Game:
         self.king_captured = False
         self.loser = None
         self.winner_color = ""
+        self.undo_left = 2
+        self.undo_used = False
+        self.previous_state = None
 
     def start_game(self):
         pass
@@ -926,7 +941,8 @@ class Game:
         self.current_turn = "w"
         chess.turn = "w"
         self.undo_left = 2
-
+        self.undo_used = False
+        self.previous_state = None
         self.moved = False
         self.game_over = False
         self.turns_count = 0
@@ -997,8 +1013,8 @@ user_manager = UserManager()
 game = Game()
 chess = Chess()
 
-input_file = open("input3.txt", "r")
-output_file = open("output33.txt", "w")
+input_file = open("input4.txt", "r")
+output_file = open("output44.txt", "w")
 
 sys.stdin = input_file
 sys.stdout = output_file
@@ -1073,6 +1089,12 @@ while True:
         else:
             print("invalid command")
 
+    elif parts[0] == "deselect":
+        if len(parts) == 1:
+            chess.deselect()
+        else:
+            print("invalid command")
+    
     elif parts[0] == "move":
         if len(parts) == 2:
             coordinates = parts[1].split(",")
@@ -1082,13 +1104,22 @@ while True:
             chess.move(x, y)
         else:
             print("invalid command")
+
+
     elif parts[0] == "new_game":
         if len(parts) == 3:
-            username = parts[1]
-            limit = int(parts[2])
-            game.new_game(username, limit)
+            if not re.search("^[0-9]+$", parts[2]):
+                print("invalid command")
+            else:
+                username = parts[1]
+                limit = int(parts[2])
+                game.new_game(username, limit)
         else:
             print("invalid command")
+
+
+
+
     elif parts[0] == "next_turn":
         if len(parts) == 1:
             game.next_turn()
