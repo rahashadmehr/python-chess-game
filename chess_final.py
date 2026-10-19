@@ -121,7 +121,7 @@ class UserManager:
     def scoreboard(self):
         users = self.users.copy()
 
-        users.sort(key=lambda user: (user.score, user.wins, -user.loses), reverse=True)
+        users.sort(key=lambda user: (user.score, user.wins, user.draws, -user.loses), reverse=True)
 
         for user in users:
             print(user.username, user.score, user.wins, user.draws, user.loses)
