@@ -1529,8 +1529,8 @@ Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
 turn completed
 player a with color white won
 a 18 6 0 0
-e 9 3 0 0
 d 9 3 0 1
+e 9 3 0 0
 c 6 2 0 0
 b 3 1 0 0
 f 3 1 0 0
@@ -1615,8 +1615,8 @@ Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
 turn completed
 player a with color white won
 a 21 7 0 0
-e 9 3 0 0
 d 9 3 0 1
+e 9 3 0 0
 c 6 2 0 0
 b 3 1 0 0
 f 3 1 0 0
@@ -1701,8 +1701,8 @@ Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
 turn completed
 player a with color white won
 a 24 8 0 0
-e 9 3 0 0
 d 9 3 0 1
+e 9 3 0 0
 c 6 2 0 0
 b 3 1 0 0
 f 3 1 0 1
@@ -1733,8 +1733,8 @@ moved
 turn completed
 draw
 a 28 8 4 0
-e 9 3 0 0
 d 9 3 0 1
+e 9 3 0 0
 b 6 1 3 0
 c 6 2 0 0
 g 4 1 1 1
@@ -1743,380 +1743,10 @@ h 0 0 0 0
 i 0 0 0 0
 dummy 0 0 0 16
 logout successful
-invalid command
-invalid command
+register successful
+register successful
 login successful
-no user exists with this username
-you can only select one of your pieces
-no piece on this spot selected
-selected
-moved
-invalid command
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-Pb|Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-  |  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-you can only select one of your pieces
-cannot move to the spot
-selected
-moved
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-Pb|  |  |Pb|  |  |  |  |
-  |  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-selected
-moved
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-a 28 8 4 0
-e 9 3 0 0
-d 9 3 0 1
-b 6 1 3 0
-c 6 2 0 0
-g 4 1 1 1
-f 3 1 0 1
-h 0 0 0 0
-i 0 0 0 0
-dummy 0 0 0 16
-no user exists with this username
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-invalid command
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-a 28 8 4 0
-e 9 3 0 0
-d 9 3 0 1
-b 6 1 3 0
-c 6 2 0 0
-g 4 1 1 1
-f 3 1 0 1
-h 0 0 0 0
-i 0 0 0 0
-dummy 0 0 0 16
-no user exists with this username
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-invalid command
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-a 28 8 4 0
-e 9 3 0 0
-d 9 3 0 1
-b 6 1 3 0
-c 6 2 0 0
-g 4 1 1 1
-f 3 1 0 1
-h 0 0 0 0
-i 0 0 0 0
-dummy 0 0 0 16
-no user exists with this username
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-invalid command
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-a 28 8 4 0
-e 9 3 0 0
-d 9 3 0 1
-b 6 1 3 0
-c 6 2 0 0
-g 4 1 1 1
-f 3 1 0 1
-h 0 0 0 0
-i 0 0 0 0
-dummy 0 0 0 16
-no user exists with this username
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-invalid command
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-no piece on this spot selected
-cannot move to the spot
-you can only select one of your pieces
-cannot move to the spot
-no piece on this spot selected
-cannot move to the spot
-Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
-  |Pb|Pb|  |Pb|Pb|Pb|Pb|
-  |  |  |  |  |  |  |  |
-  |  |  |Pb|  |  |  |  |
-Pb|  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
-Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-a 28 8 4 0
-e 9 3 0 0
-d 9 3 0 1
-b 6 1 3 0
-c 6 2 0 0
-g 4 1 1 1
-f 3 1 0 1
-h 0 0 0 0
-i 0 0 0 0
-dummy 0 0 0 16
-new game started successfully between a and f with limit 0
+new game started successfully between a and l2 with limit 0
 selected
 moved
 turn completed
@@ -2193,8 +1823,448 @@ Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
 turn completed
 player a with color white won
 a 31 9 4 0
-e 9 3 0 0
 d 9 3 0 1
+e 9 3 0 0
+b 6 1 3 0
+c 6 2 0 0
+g 4 1 1 1
+f 3 1 0 1
+h 0 0 0 0
+i 0 0 0 0
+dummy 0 0 0 16
+l1 0 0 0 0
+l2 0 0 0 1
+new game started successfully between a and l2 with limit 0
+selected
+moved
+turn completed
+selected
+moved
+invalid command
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+Pb|Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+selected
+moved
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+Pb|  |  |Pb|  |  |  |  |
+  |  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+Pb|  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |Qw|  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+Pb|  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+rival piece destroyed
+turn completed
+selected
+rival piece destroyed
+Rb|Nb|Bb|Qb|Qw|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pb|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+player a with color white won
+a 34 10 4 0
+d 9 3 0 1
+e 9 3 0 0
+b 6 1 3 0
+c 6 2 0 0
+g 4 1 1 1
+f 3 1 0 1
+h 0 0 0 0
+i 0 0 0 0
+dummy 0 0 0 16
+l1 0 0 0 0
+l2 0 0 0 2
+new game started successfully between a and l1 with limit 0
+selected
+moved
+turn completed
+selected
+moved
+invalid command
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+Pb|Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+selected
+moved
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+Pb|  |  |Pb|  |  |  |  |
+  |  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+Pb|  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |Qw|  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+Pb|  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+rival piece destroyed
+turn completed
+selected
+rival piece destroyed
+Rb|Nb|Bb|Qb|Qw|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pb|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+player a with color white won
+a 37 11 4 0
+d 9 3 0 1
+e 9 3 0 0
+b 6 1 3 0
+c 6 2 0 0
+g 4 1 1 1
+f 3 1 0 1
+h 0 0 0 0
+i 0 0 0 0
+dummy 0 0 0 16
+l1 0 0 0 1
+l2 0 0 0 2
+new game started successfully between a and l1 with limit 0
+selected
+moved
+turn completed
+selected
+moved
+invalid command
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+Pb|Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+selected
+moved
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+Pb|  |  |Pb|  |  |  |  |
+  |  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+Pb|  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |Qw|  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+Pb|  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+rival piece destroyed
+turn completed
+selected
+rival piece destroyed
+Rb|Nb|Bb|Qb|Qw|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pb|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+player a with color white won
+a 40 12 4 0
+d 9 3 0 1
+e 9 3 0 0
+b 6 1 3 0
+c 6 2 0 0
+g 4 1 1 1
+f 3 1 0 1
+h 0 0 0 0
+i 0 0 0 0
+dummy 0 0 0 16
+l1 0 0 0 2
+l2 0 0 0 2
+new game started successfully between a and l1 with limit 0
+selected
+moved
+turn completed
+selected
+moved
+invalid command
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+Pb|Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+selected
+moved
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+Pb|  |  |Pb|  |  |  |  |
+  |  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+Pb|  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |Qw|  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+Pb|  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+rival piece destroyed
+turn completed
+selected
+rival piece destroyed
+Rb|Nb|Bb|Qb|Qw|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pb|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+player a with color white won
+a 43 13 4 0
+d 9 3 0 1
+e 9 3 0 0
+b 6 1 3 0
+c 6 2 0 0
+g 4 1 1 1
+f 3 1 0 1
+h 0 0 0 0
+i 0 0 0 0
+dummy 0 0 0 16
+l1 0 0 0 3
+l2 0 0 0 2
+new game started successfully between a and f with limit 0
+selected
+moved
+turn completed
+selected
+moved
+invalid command
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+Pb|Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+selected
+moved
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+Pb|  |  |Pb|  |  |  |  |
+  |  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+Pb|  |  |Pw|Qw|  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+moved
+turn completed
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |Qw|  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+Pb|  |  |  |  |  |  |  |
+Pw|Pw|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+selected
+moved
+turn completed
+selected
+rival piece destroyed
+turn completed
+selected
+rival piece destroyed
+Rb|Nb|Bb|Qb|Qw|Bb|Nb|Rb|
+  |Pb|Pb|  |Pb|Pb|Pb|Pb|
+  |  |  |  |  |  |  |  |
+  |  |  |Pb|  |  |  |  |
+  |  |  |Pw|  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pw|Pb|Pw|  |Pw|Pw|Pw|Pw|
+Rw|Nw|Bw|  |Kw|Bw|Nw|Rw|
+turn completed
+player a with color white won
+a 46 14 4 0
+d 9 3 0 1
+e 9 3 0 0
 b 6 1 3 0
 c 6 2 0 0
 g 4 1 1 1
@@ -2202,14 +2272,16 @@ f 3 1 0 2
 h 0 0 0 0
 i 0 0 0 0
 dummy 0 0 0 16
+l1 0 0 0 3
+l2 0 0 0 2
 new game started successfully between a and g with limit 0
 selected
 moved
 turn completed
 invalid command
-a 31 9 4 0
-e 9 3 0 0
+a 46 14 4 0
 d 9 3 0 1
+e 9 3 0 0
 b 6 1 3 0
 c 6 2 0 0
 g 4 1 1 1
@@ -2217,5 +2289,7 @@ f 3 1 0 2
 h 0 0 0 0
 i 0 0 0 0
 dummy 0 0 0 16
+l1 0 0 0 3
+l2 0 0 0 2
 logout successful
 invalid command

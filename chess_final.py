@@ -132,7 +132,7 @@ class Piece:
     def __init__(self):
         self.selected = False
 
-    def select(self): 
+    def select(self):
         self.selected = True
 
     def deselect(self):
@@ -1004,8 +1004,14 @@ sys.stdout = output_file
 while True:
 
     parts = input().strip().split()
-    if user_manager.logged_out and parts[0] != "login":
+
+    if len(parts) == 0:
+        break
+
+    if user_manager.logged_out and parts[0] != "login" and parts[0] != "register":
         parts = ["logged_out"]
+
+
 
     if parts[0] == "register":
         if len(parts) == 3:
