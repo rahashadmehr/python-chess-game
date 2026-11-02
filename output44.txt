@@ -36,8 +36,8 @@ wrong coordination
 wrong coordination
 wrong coordination
 you must move then proceed to next turn
-invalid command
-invalid command
+you must move before undo
+it is player a turn with color white
 cannot move to the spot
 selected
 cannot move to the spot
@@ -65,14 +65,14 @@ Pw|  |  |  |  |  |  |  |
   |  |  |  |  |  |  |  |
   |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
 Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-invalid command
+undo completed
 Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
 Pb|Pb|Pb|Pb|Pb|Pb|Pb|Pb|
   |  |  |  |  |  |  |  |
   |  |  |  |  |  |  |  |
-Pw|  |  |  |  |  |  |  |
   |  |  |  |  |  |  |  |
-  |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
+  |  |  |  |  |  |  |  |
+Pw|Pw|Pw|Pw|Pw|Pw|Pw|Pw|
 Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
 cannot move to the spot
 cannot move to the spot
@@ -81,8 +81,8 @@ cannot move to the spot
 cannot move to the spot
 cannot move to the spot
 cannot move to the spot
-cannot move to the spot
-invalid command
+moved
+you have 1 undo moves
 Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
 Pb|Pb|Pb|Pb|Pb|Pb|Pb|Pb|
   |  |  |  |  |  |  |  |
@@ -91,7 +91,7 @@ Pw|  |  |  |  |  |  |  |
   |  |  |  |  |  |  |  |
   |Pw|Pw|Pw|Pw|Pw|Pw|Pw|
 Rw|Nw|Bw|Qw|Kw|Bw|Nw|Rw|
-invalid command
+you have used your undo for this turn
 turn completed
 cannot move to the spot
 selected
@@ -114,11 +114,13 @@ selected
 cannot move to the spot
 selected
 moved
-invalid command
-invalid command
+Pb 7,1 to 5,1
+Pw 2,1 to 4,1
+Pb 7,1 to 5,1
 turn completed
-invalid command
-invalid command
+Pw 2,1 to 4,1
+Pw 2,1 to 4,1
+Pb 7,1 to 5,1
 Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb|
   |Pb|Pb|Pb|Pb|Pb|Pb|Pb|
   |  |  |  |  |  |  |  |

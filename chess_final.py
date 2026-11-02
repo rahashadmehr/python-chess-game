@@ -1,5 +1,6 @@
 import re
 import sys
+import colorama
 
 
 class User:
@@ -162,6 +163,7 @@ class Pawn(Piece):
         return "P" + self.color[0]
 
     def move(self, x, y, board):
+        
         if x < 1 or x > 8 or y < 1 or y > 8:
             print("wrong coordination")
             return
@@ -718,12 +720,13 @@ class King(Piece):
 
 
 class Chess:
-    selected_piece = None
+    
     turn: str = "w"
     board: list[list[Pawn | King | Queen | Knight | Rook | Bishop | None]] = []
 
     def __init__(self):
         self.turn = "w"
+        self.selected_piece = None
         self.initialize()
 
     def initialize(self):
@@ -782,6 +785,7 @@ class Chess:
         self.selected_piece = piece
         piece.select()
         print("selected")
+        
 
 
     def deselect(self):
@@ -796,23 +800,54 @@ class Chess:
 
 
     def move(self, x, y):
+        
         if x < 1 or x > 8 or y < 1 or y > 8:
             print("wrong coordination") 
             return
 
+        
         if self.selected_piece is None:
-            print("no piece on this spot")
+            print("do not have any selected piece")
             return
-
         old_x = self.selected_piece.x
         old_y = self.selected_piece.y
 
+        piece_name = str(self.selected_piece)
+        piece_color = self.selected_piece.color[0]
+
         target = self.board[8 - y][x - 1]
+
+        destroyed_piece = None
+        if target is not None:
+            destroyed_piece = str(target)
+
+        game.previous_state = []
+
+        for row in self.board:
+            row_state = []
+
+            for piece in row:
+                if piece is None:
+                    row_state.append(None)
+                else:
+                    row_state.append((piece, piece.x, piece.y, piece.alive, piece.moved))
+
+            game.previous_state.append(row_state)
 
         self.selected_piece.move(x, y, self.board)
 
         if self.selected_piece.x != old_x or self.selected_piece.y != old_y:
             game.moved = True
+
+            game.move_history.append((
+                piece_color,
+                piece_name,
+                old_y,
+                old_x,
+                y,
+                x,
+                destroyed_piece
+            ))
 
             if isinstance(target, King):
                 if self.selected_piece.color == "white":
@@ -855,6 +890,7 @@ class Game:
         self.undo_left = 2
         self.undo_used = False
         self.previous_state = None
+        self.move_history = []
 
     def start_game(self):
         pass
@@ -893,7 +929,6 @@ class Game:
             self.white_player.draws += 1
             self.black_player.draws += 1
             self.game_over = True
-            chess.selected_piece = None
             print("draw")
 
     def show_turn(self):
@@ -904,10 +939,47 @@ class Game:
             print("it is player", self.black_player.username, "turn with color black")
 
     def undo_number(self):
-        pass
+        print("you have", self.undo_left, "undo moves")
 
     def undo(self):
-        pass
+        if self.undo_used:
+            print("you have used your undo for this turn")
+            return
+        if self.moved == False:
+            print("you must move before undo")
+            return
+
+        if self.undo_left == 0:
+            print("you cannot undo anymore")
+            return
+
+        
+
+        if self.previous_state is None:
+            print("you must move before undo")
+            return
+
+        for i in range(8):
+            for j in range(8):
+                piece = self.previous_state[i][j]
+
+                if piece is None:
+                    chess.board[i][j] = None
+                else:
+                    chess.board[i][j] = piece[0]
+                    piece[0].x = piece[1]
+                    piece[0].y = piece[2]
+                    piece[0].alive = piece[3]
+                    piece[0].moved = piece[4]
+
+        self.undo_left -= 1
+        self.undo_used = True
+        self.moved = False
+
+        if self.move_history:
+            self.move_history.pop()
+
+        print("undo completed")
 
     def exit(self):
         print("program ended")
@@ -951,6 +1023,7 @@ class Game:
         self.loser = None
         self.winner_color = ""
         chess.selected_piece = None
+        self.move_history = []
         chess.initialize()
 
         print("new game started successfully between", self.white_player.username, "and", self.black_player.username, "with limit", self.limit)
@@ -964,8 +1037,30 @@ class Game:
         print("help")
         print("exit")
 
-    def show_moves(self):
-        pass
+    def show_moves(self,  all_moves=False):
+        for move in self.move_history:
+
+            color, piece, old_y, old_x, y, x, destroyed = move
+
+            if all_moves or color == self.turn:
+
+                if destroyed is None:
+                    print(
+                        piece,
+                        str(old_y) + "," + str(old_x),
+                        "to",
+                        str(y) + "," + str(x)
+                    )
+
+                else:
+                    print(
+                        piece,
+                        str(old_y) + "," + str(old_x),
+                        "to",
+                        str(y) + "," + str(x),
+                        "destroyed",
+                        destroyed
+                    )
     def show_board(self):
         self.chess.print_board()
     def forfeit(self):
@@ -1130,6 +1225,16 @@ while True:
             chess.print_board()
         else:
             print("invalid command")
+    elif parts[0] == "show_moves":
+
+        if len(parts) == 1:
+            game.show_moves()
+
+        elif len(parts) == 2 and parts[1] == "-all":
+            game.show_moves(True)
+
+        else:
+            print("invalid command")
     elif parts[0] == "scoreboard":
         if len(parts) == 1:
             user_manager.scoreboard()
@@ -1142,6 +1247,23 @@ while True:
         else:
             print("invalid command")
 
+    elif parts[0] == "undo":
+        if len(parts) == 1:
+            game.undo()
+        else:
+            print("invalid command")
+
+    elif parts[0] == "undo_number":
+        if len(parts) == 1:
+            game.undo_number()
+        else:
+            print("invalid command")
+
+    elif parts[0] == "show_turn":
+        if len(parts) == 1:
+            game.show_turn()
+        else:
+            print("invalid command")
 
     else:
         print("invalid command")
